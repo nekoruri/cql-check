@@ -2,7 +2,9 @@
 	"name": "cql-check",
 	"version": "0.0.1",
 	"description": "Cassandra healthcheck using cql-client",
-	"main": "index.js",
+	"bin": {
+		"cql-check": "index.js"
+	},
 	"repository": {
 		"type": "git",
 		"url": "https://github.com/nekoruri/cql-check.git"
