@@ -1,0 +1,16 @@
+{
+	"name": "cql-check",
+	"version": "0.0.1",
+	"description": "Cassandra healthcheck using cql-client",
+	"main": "index.js",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/nekoruri/cql-check.git"
+	},
+	"dependencies": {
+		"cql-client": "^0.3.0",
+		"nopt": "^3.0.0"
+	},
+	"author": "NAKAYAMA Masahiro <nakayama_masahiro@cyberagent.co.jp>",
+	"license": "BSD"
+}
