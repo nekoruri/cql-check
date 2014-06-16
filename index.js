@@ -1,3 +1,5 @@
+#!/usr/bin/env node
+
 var cql = require('cql-client');
 var nopt = require('nopt');
 
